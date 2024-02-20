@@ -56,7 +56,7 @@ function App() {
      Chapter: {data.verses[0].chapter}  <br></br>
      Total Verses: {data.verses.length}
     <br></br>
-    Translation:  {data.translation_id}.toUppercase()
+    Translation:  {data.translation_id.toUppercase()}
     </h1>
         <ul>
           {/* after using .map() method use() and not {} to return. It is iplicity return and the bracker() say to return this
